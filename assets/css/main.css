@@ -31,29 +31,23 @@ footer, header, hgroup, menu, nav, section {
 
 
 
+#skills-chart {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
 .skill {
   margin-bottom: 20px;
 }
 
-.skill h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.skill-bar {
-  margin-bottom: 10px;
-}
-
-.skill-label {
-  display: inline-block;
-  width: 100px;
+.skill-name {
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
-.skill-progress {
-  display: inline-block;
+.skill-bar {
   height: 20px;
-  background-color: #f0f0f0;
+  background-color: #0066cc;
 }
 
 body {
