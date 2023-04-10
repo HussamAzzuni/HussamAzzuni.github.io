@@ -29,6 +29,33 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  margin-bottom: 10px;
+}
+
+.skill-label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.skill-progress {
+  display: inline-block;
+  height: 20px;
+  background-color: #f0f0f0;
+}
+
 body {
 	line-height: 1;
 }
