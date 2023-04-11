@@ -1236,7 +1236,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 1rem 1rem;
+				padding: 3rem 2rem;
 			}
 
 		}
