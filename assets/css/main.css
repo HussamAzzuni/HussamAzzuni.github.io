@@ -38,12 +38,13 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .authors-list {
-    list-style: none; /* Remove bullet points from the list items */
-    padding: 0; /* Remove default padding */
+    display: flex; /* Display authors next to each other */
+    flex-wrap: wrap; /* Wrap authors to a new line if they don't fit in the container */
+    margin-top: 10px; /* Add spacing between the title and authors */
 }
 
-.authors-list li {
-    margin-bottom: 5px; /* Add spacing between authors */
+.authors-list span {
+    margin-right: 0px; /* Add spacing between authors */
 }
 
 .publication-card {
