@@ -43,8 +43,8 @@ footer, header, hgroup, menu, nav, section {
     margin-top: 10px; /* Add spacing between the title and authors */
 }
 
-.authors-list span {
-    margin-right: 0px; /* Add spacing between authors */
+.authors-list span:not(:last-child):after {
+    content: ', '; /* Add a comma and space after each author except the last one */
 }
 
 .publication-card {
