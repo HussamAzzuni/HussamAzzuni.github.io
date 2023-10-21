@@ -29,6 +29,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+#Publications {
+	/* Add your styles here */
+	/* For example, you can set a background color and padding */
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+.skill {
+	margin-bottom: 20px;
+}
+
+.publication-image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+}
 
 
 #skills-chart {
