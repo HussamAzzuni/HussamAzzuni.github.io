@@ -41,8 +41,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .publication-image {
-    width: 600px; /* Set the desired width */
-    height: 200px; /* Set the desired height */
+    max-width: 100%;
+    height: auto;
 }
 
 
