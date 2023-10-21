@@ -42,16 +42,19 @@ footer, header, hgroup, menu, nav, section {
     align-items: center; /* Vertically align items in the center */
 }
 
-.publication-title {
-    background-color: #696767; /* Set a gray background color for the text side */
-    padding: 10px; /* Add padding for spacing and to separate the background from the content */
-    flex: 1; /* Allow the text to take up remaining space */
+.publication-image {
+    width: 75%; /* Set the width of the image side to 50% */
+    height: auto; /* Maintain aspect ratio */
+    background-color: white; /* Add a white background to the image side */
+    padding: 20px; /* Add padding for spacing and to separate the background from the content */
+    box-sizing: border-box; /* Include padding in the width calculation */
 }
 
-.publication-image {
-    max-width: 75%;
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add some spacing between image and text */
+.publication-title {
+    flex: 1; /* Allow the text side to take up the remaining space */
+    background-color: #f2f2f2; /* Set a gray background color for the text side */
+    padding: 20px; /* Add padding for spacing and to separate the background from the content */
+    box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 .publication-details {
