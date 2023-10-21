@@ -36,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	.education-card {
 		display: flex;
-		background-color: white;
+		background-color: rgb(94, 94, 94);
 		margin: 10px;
 		align-items: flex-start;
 	}
