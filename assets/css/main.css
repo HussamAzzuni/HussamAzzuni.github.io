@@ -37,15 +37,24 @@ footer, header, hgroup, menu, nav, section {
     margin: 10px;
 }
 
+.authors-list {
+    list-style: none; /* Remove bullet points from the list items */
+    padding: 0; /* Remove default padding */
+}
+
+.authors-list li {
+    margin-bottom: 5px; /* Add spacing between authors */
+}
+
 .publication-card {
     display: flex; /* Use Flexbox to display items in a row */
 	align-items: flex-start; /* Align items at the start of the flex container */
 }
 
 .publication-title {
-    background-color: #696767; /* Set a gray background color for the text side */
     padding: 10px; /* Add padding for spacing and to separate the background from the content */
     flex: 1; /* Allow the text to take up remaining space */
+	color: rgb(191, 191, 191);
 }
 
 .publication-image {
@@ -65,12 +74,6 @@ footer, header, hgroup, menu, nav, section {
     font-size: 40px;
     color: rgb(243, 243, 243);
 }
-
-.publication-title {
-    font-size: 32px;
-    color: rgb(191, 191, 191);
-}
-
 
 #skills-chart {
   padding: 20px;
