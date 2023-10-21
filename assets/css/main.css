@@ -124,16 +124,6 @@ footer, header, hgroup, menu, nav, section {
     margin: 10px;
 }
 
-.authors-list {
-    display: flex; /* Display authors next to each other */
-    flex-wrap: wrap; /* Wrap authors to a new line if they don't fit in the container */
-    margin-top: 10px; /* Add spacing between the title and authors */
-}
-
-.authors-list span:not(:last-child):after {
-    content: ', '; /* Add a comma and space after each author except the last one */
-}
-
 .publication-card {
     display: flex; /* Use Flexbox to display items in a row */
 	align-items: flex-start; /* Align items at the start of the flex container */
@@ -161,6 +151,17 @@ footer, header, hgroup, menu, nav, section {
 .publication-year {
     font-size: 40px;
     color: rgb(243, 243, 243);
+}
+
+.authors-list {
+    display: flex; /* Display authors next to each other */
+    flex-wrap: wrap; /* Wrap authors to a new line if they don't fit in the container */
+    margin-top: 10px; /* Add spacing between the title and authors */
+	margin-left: 10px; /* Add left margin for consistent indentation */
+}
+
+.authors-list span:not(:last-child):after {
+    content: ', '; /* Add a comma and space after each author except the last one */
 }
 
 #skills-chart {
