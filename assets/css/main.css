@@ -32,8 +32,10 @@ footer, header, hgroup, menu, nav, section {
 #Publications {
 	/* Add your styles here */
 	/* For example, you can set a background color and padding */
-	background-color: #f0f0f0;
-	padding: 20px;
+    width: 800px;
+    height: 400px;
+    background-color: white; /* To add a white background as you mentioned earlier */
+    margin: 10px; /* Optional: Add margin for spacing between publication entries */
 }
 
 .skill {
@@ -42,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
 
 .publication-image {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 	background-color: white;
 }
 
