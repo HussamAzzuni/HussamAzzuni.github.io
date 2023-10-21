@@ -30,23 +30,38 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 #Publications {
-	/* Add your styles here */
-	/* For example, you can set a background color and padding */
     width: 800px;
     height: 900px;
-    background-color: white; /* To add a white background as you mentioned earlier */
-    margin: 10px; /* Optional: Add margin for spacing between publication entries */
+    background-color: white;
+    margin: 10px;
 }
 
-.skill {
-	margin-bottom: 20px;
+.publication-card {
+    display: flex;
+    border: 1px solid #ccc; /* Optional: Add a border to the card */
+    margin: 10px; /* Optional: Add margin for spacing between cards */
 }
 
 .publication-image {
-    width: 700px;
-    height: 350px;
-	background-color: white;
+    max-width: 200px; /* Set the maximum width for the image */
+    height: auto;
 }
+
+.publication-details {
+    flex: 1;
+    padding: 10px; /* Optional: Add padding for spacing within the card */
+}
+
+.publication-year {
+    font-size: 40px;
+    color: rgb(243, 243, 243);
+}
+
+.publication-title {
+    font-size: 32px;
+    color: rgb(191, 191, 191);
+}
+
 
 
 #skills-chart {
