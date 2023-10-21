@@ -29,6 +29,46 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	
+#Education {
+    margin-top: 30px; /* Add spacing at the top of the section */
+}
+
+/* Timeline container */
+.timeline {
+    display: flex; /* Display items in a row */
+    flex-direction: column; /* Stack items vertically */
+    padding-left: 20px; /* Indent the timeline */
+}
+
+/* Timeline items */
+.timeline-item {
+    position: relative;
+    margin: 20px 0; /* Add spacing between items */
+}
+
+/* Timeline dates */
+.timeline-date {
+    font-weight: bold;
+}
+
+/* Timeline content */
+.timeline-content {
+    background-color: #f2f2f2; /* Background color for content */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Optional: Style for the timeline line */
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10px; /* Adjust the position of the line */
+    width: 2px; /* Width of the line */
+    height: 100%;
+    background-color: #000; /* Color of the line */
+}
 
 #Publications {
     width: 800px;
