@@ -29,6 +29,27 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+#LatestNews {
+	list-style: none;
+	padding: 0;
+	}
+
+	.timeline li {
+	display: flex;
+	margin: 20px 0;
+	}
+
+	.timeline-date {
+	width: 120px;
+	font-weight: bold;
+	}
+
+	.timeline-content {
+	flex: 1;
+	padding-left: 20px;
+	}
+
+
 #Projects {
 	margin: 20px;
 	padding: 20px;
