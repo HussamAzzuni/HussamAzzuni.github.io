@@ -47,11 +47,13 @@ footer, header, hgroup, menu, nav, section {
 	.project-name {
 		font-size: 24px;
 		text-decoration: underline;
+		color: #ffffff;
 	}
 
 	/* Style for the project details */
 	.project-details {
 		font-size: 18px;
+		color: #ffffff;
 	}
   
 	/* Style for the Experience section */
