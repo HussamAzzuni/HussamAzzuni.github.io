@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 #LatestNews {
 	list-style: none;
 	padding: 0;
+	text-align: center; /* Add this line to center align text */
 	}
 
 	.timeline li {
