@@ -32,7 +32,6 @@ footer, header, hgroup, menu, nav, section {
 #LatestNews {
 	list-style: none;
 	padding: 0;
-	text-align: center; /* Add this line to center align text */
 	}
 
 	.timeline li {
@@ -40,6 +39,12 @@ footer, header, hgroup, menu, nav, section {
 	margin: 20px 0;
 	}
 
+	.headline {
+		text-align: center;
+		text-decoration: underline;
+		font-size: 24px; /* Adjust the font size as needed */
+	  }
+	  
 	.timeline-date {
 	width: 120px;
 	font-weight: bold;
