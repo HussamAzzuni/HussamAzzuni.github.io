@@ -76,20 +76,14 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 0.9rem;
 		margin: 5px 0;
 	  }
-	
-	
+		
 	.education-image {
 		max-width: 25%; /* Adjust the image width */
 		height: auto;
 		margin-right: 20px;
 		border: 2px solid #000;
 	}
-	
-	.education-details {
-		flex: 1;
-		padding: 10px;
-	}
-	
+		
 	.timeline {
 		display: flex;
 		flex-direction: column;
