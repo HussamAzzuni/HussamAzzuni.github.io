@@ -81,14 +81,6 @@ footer, header, hgroup, menu, nav, section {
 	font-size: 0.9rem;
 	margin: 5px 0;
   }
-  
-  .date {
-	font-weight: bold;
-  }
-  
-  .courses {
-	font-style: italic;
-  }
 
 /* Style for the Experience section */
 #Experience {
@@ -131,6 +123,7 @@ footer, header, hgroup, menu, nav, section {
     height: 900px;
     background-color: white;
     margin: 10px;
+    font-size: 0.8rem; /* Example font size value, replace with desired size */
 }
 
 .publication-card {
