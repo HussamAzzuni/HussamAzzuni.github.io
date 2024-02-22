@@ -72,14 +72,14 @@ footer, header, hgroup, menu, nav, section {
 
 	/* Style for the project name */
 	.project-name {
-		font-size: 24px;
+		font-size: 1.4rem;
 		text-decoration: underline;
 		color: #ffffff;
 	}
 
 	/* Style for the project details */
 	.project-details {
-		font-size: 18px;
+		font-size: 1rem;
 		color: #ffffff;
 	}
   
@@ -101,12 +101,12 @@ footer, header, hgroup, menu, nav, section {
   }
   
   .experience-header h3 {
-	font-size: 40px;
+	font-size: 1.8rem;
 	margin: 0;
   }
   
   .experience-header p {
-	font-size: 32px;
+	font-size: 1.6rem;
 	color: #ffffff;
   }
   
@@ -115,7 +115,7 @@ footer, header, hgroup, menu, nav, section {
   }
   
   .experience-details p {
-	font-size: 24px;
+	font-size: 1.4rem;
 	margin: 5px 0;
   }
   
@@ -205,7 +205,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .publication-year {
-    font-size: 40px;
+    font-size: 1.8rem;
     color: rgb(243, 243, 243);
 }
 
