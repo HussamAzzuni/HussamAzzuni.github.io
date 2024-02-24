@@ -141,7 +141,7 @@ footer, header, hgroup, menu, nav, section {
     max-width: 50%;
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Add some spacing between image and text */
-	/* border: 1px solid #000;  */
+    background-color: #ffffff; /* White background color */
 
 }
 
@@ -173,13 +173,10 @@ footer, header, hgroup, menu, nav, section {
     border-radius: 5px; /* Controls the roundness of the corners */
 }
 
-
-
 .authors-list {
     display: flex; /* Display authors next to each other */
     flex-wrap: wrap; /* Wrap authors to a new line if they don't fit in the container */
     margin-top: 10px; /* Add spacing between the title and authors */
-	margin-left: 10px; /* Add left margin for consistent indentation */
 }
 
 .authors-list span:not(:last-child):after {
