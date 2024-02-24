@@ -156,6 +156,16 @@ footer, header, hgroup, menu, nav, section {
     color: rgb(243, 243, 243);
 }
 
+.conference-name {
+    background-color: #f0f0f0; /* Background color for the square */
+    border: 1px solid #ccc; /* Border around the square */
+    padding: 5px 10px; /* Padding inside the square */
+    display: inline-block; /* Display as inline-block to fit the content */
+    margin-top: 5px; /* Adjust margin as needed */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+
+
 .authors-list {
     display: flex; /* Display authors next to each other */
     flex-wrap: wrap; /* Wrap authors to a new line if they don't fit in the container */
