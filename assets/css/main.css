@@ -144,14 +144,6 @@ footer, header, hgroup, menu, nav, section {
     background-color: #ffffff; /* White background color */
 }
 
-.publication-image {
-    max-width: 50%;
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add some spacing between image and text */
-    background-color: #ffffff; /* White background color */
-
-}
-
 .publication-details {
     flex: 1;
 }
