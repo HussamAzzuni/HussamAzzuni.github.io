@@ -159,6 +159,7 @@ footer, header, hgroup, menu, nav, section {
 .conference-name {
     display: inline-block;
     margin-top: 5px;
+    padding: 5px 10px;
     font-weight: bold;
     font-size: 14px;
     color: #ffffff;
