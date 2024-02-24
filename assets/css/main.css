@@ -71,6 +71,10 @@ footer, header, hgroup, menu, nav, section {
 	margin: 20px 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
+
+  .Education-card:hover {
+	transform: scale(1.05);
+  }
   
   .Education-header h3 {
 	font-size: 1rem;
@@ -97,6 +101,10 @@ footer, header, hgroup, menu, nav, section {
 	padding: 20px;
 	margin: 20px 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .experience-card:hover {
+	transform: scale(1.05);
   }
   
   .experience-header h3 {
@@ -130,6 +138,9 @@ footer, header, hgroup, menu, nav, section {
 	align-items: flex-start; /* Align items at the start of the flex container */
 }
 
+.publication-card:hover {
+	transform: scale(1.05);
+  }
 .publication-title {
     flex: 1; /* Allow the text to take up remaining space */
 	color: rgb(191, 191, 191);
