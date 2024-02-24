@@ -131,7 +131,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .publication-title {
-    padding: 10px; /* Add padding for spacing and to separate the background from the content */
     flex: 1; /* Allow the text to take up remaining space */
 	color: rgb(191, 191, 191);
     font-size: 0.8rem; /* Example font size value, replace with desired size */
@@ -148,7 +147,6 @@ footer, header, hgroup, menu, nav, section {
 
 .publication-details {
     flex: 1;
-    padding: 10px; /* Optional: Add padding for spacing within the card */
 }
 
 .publication-year {
