@@ -123,11 +123,11 @@ footer, header, hgroup, menu, nav, section {
     height: 900px;
     background-color: white;
     margin: 10px;
-    margin-bottom: 200px; /* Sets a bottom margin of 20 pixels after the card */
     font-size: 0.8rem; /* Example font size value, replace with desired size */
 }
 
 .publication-card {
+    margin-bottom: 200px; /* Sets a bottom margin of 20 pixels after the card */
     display: flex; /* Use Flexbox to display items in a row */
 	align-items: flex-start; /* Align items at the start of the flex container */
 }
