@@ -193,6 +193,47 @@ footer, header, hgroup, menu, nav, section {
     content: ', '; /* Add a comma and space after each author except the last one */
 }
 
+/* Style for the Experience section */
+#Awards {
+	margin: 20px;
+	padding: 20px;
+	background-color: #4d4d4d;
+	border-radius: 5px;
+  }
+  
+  /* Style for the experience card */
+  .awards-card {
+	background: #4d4d4d;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px 0;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .awards-card:hover {
+	transform: scale(1.05);
+  }
+  
+  .awards-header h3 {
+	font-size: 1rem;
+	margin: 0;
+  }
+      
+  .awards-details p {
+	font-size: 0.9rem;
+	margin: 5px 0;
+  }
+  
+  .date {
+	font-weight: bold;
+  }
+  
+  .courses {
+	font-style: italic;
+  }
+  
+
+
 body {
 	line-height: 1;
 }
