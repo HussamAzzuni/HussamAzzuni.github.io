@@ -29,30 +29,43 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-#LatestNews {
-	list-style: none;
-	padding: 0;
+	#LatestNews {
+		list-style: none;
+		padding: 0;
 	}
-
+	
+	.timeline-container {
+		display: flex;
+		justify-content: center; /* Center the content horizontally */
+	}
+	
+	.timeline {
+		padding: 0;
+	}
+	
 	.timeline li {
-	display: flex;
+		display: flex;
+		margin: 20px 0;
+		width: 100%; /* Ensure the timeline stretches the full width */
 	}
-
+	
 	.headline {
 		text-align: center;
 		text-decoration: underline;
-		font-size: 40px; /* Adjust the font size as needed */
-	  }
-	  
+		font-size: 60px; /* Adjust the font size as needed */
+	}
+	
 	.timeline-date {
-    display: inline-block; /* Change from width: 60px; */
-	font-weight: bold;
+		font-weight: bold;
+		display: inline-block;
+		width: 100px; /* Adjust as needed */
 	}
-
+	
 	.timeline-content {
-	flex: 1;
+		flex: 1;
+		padding-left: 20px;
 	}
-  
+	  
 /* Style for the Education section */
 #Education {
 	margin: 20px;
