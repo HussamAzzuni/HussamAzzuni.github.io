@@ -34,11 +34,6 @@ footer, header, hgroup, menu, nav, section {
 		padding: 0;
 	}
 	
-	.timeline-container {
-		display: flex;
-		justify-content: center; /* Center the content horizontally */
-	}
-	
 	.timeline {
 		padding: 0;
 	}
@@ -46,7 +41,6 @@ footer, header, hgroup, menu, nav, section {
 	.timeline li {
 		display: flex;
 		margin: 20px 0;
-		width: 100%; /* Ensure the timeline stretches the full width */
 	}
 	
 	.headline {
@@ -57,14 +51,21 @@ footer, header, hgroup, menu, nav, section {
 	
 	.timeline-date {
 		font-weight: bold;
-		display: inline-block;
-		width: 50px; /* Adjust as needed */
+		font-size: inherit; /* Inherit font size */
 	}
 	
 	.timeline-content {
 		flex: 1;
 		padding-left: 20px;
+		display: flex;
+		align-items: center; /* Center content vertically */
 	}
+	
+	.timeline-content h3,
+	.timeline-content p {
+		font-size: inherit; /* Inherit font size */
+	}
+	
 	  
 /* Style for the Education section */
 #Education {
