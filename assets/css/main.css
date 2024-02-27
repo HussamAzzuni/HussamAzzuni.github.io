@@ -51,6 +51,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	.timeline-date {
 		font-weight: bold;
+		white-space: nowrap; /* Prevent line breaks */
 		font-size: inherit; /* Inherit font size */
 	}
 	
@@ -61,7 +62,7 @@ footer, header, hgroup, menu, nav, section {
 		align-items: center; /* Center content vertically */
 	}
 	
-	.timeline-content h3,
+	.timeline-content h4,
 	.timeline-content p {
 		font-size: inherit; /* Inherit font size */
 	}
