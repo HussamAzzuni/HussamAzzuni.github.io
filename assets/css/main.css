@@ -29,43 +29,42 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-	#LatestNews {
-		list-style: none;
-		padding: 0;
-	}
-	
-	.timeline {
-		padding: 0;
-	}
-	
-	.timeline li {
-		display: flex;
-		margin: 20px 0;
-	}
-	
-	.headline {
-		text-align: center;
-		text-decoration: underline;
-		font-size: 60px; /* Adjust the font size as needed */
-	}
-	
-	.timeline-date {
-		font-weight: bold;
-		white-space: nowrap; /* Prevent line breaks */
-		font-size: inherit; /* Inherit font size */
-	}
-	
-	.timeline-content {
-		flex: 1;
-		padding-left: 20px;
-		display: flex;
-		align-items: center; /* Center content vertically */
-	}
-	
-	.timeline-content h4,
-	.timeline-content p {
-		font-size: inherit; /* Inherit font size */
-	}
+#LatestNews {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline {
+    padding: 0;
+}
+
+.timeline li {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    margin: 20px 0;
+}
+
+.headline {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px; /* Adjust the font size as needed */
+}
+
+.timeline-date {
+    font-weight: bold;
+    font-size: inherit; /* Inherit font size */
+    text-align: right; /* Align date to the right */
+}
+
+.timeline-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-content p,
+.timeline-content p {
+    font-size: inherit; /* Inherit font size */
+}
 	
 	  
 /* Style for the Education section */
@@ -161,8 +160,8 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .publication-image {
-    width: 500px; /* Set a fixed width for all images */
-    height: 200px; /* Maintain aspect ratio */
+    width: 700px; /* Set a fixed width for all images */
+    height: 300px; /* Maintain aspect ratio */
     margin-right: 20px; /* Add some spacing between image and text */
     background-color: #ffffff; /* White background color */
 }
