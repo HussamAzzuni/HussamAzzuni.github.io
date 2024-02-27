@@ -58,7 +58,7 @@ footer, header, hgroup, menu, nav, section {
 	.timeline-date {
 		font-weight: bold;
 		display: inline-block;
-		width: 100px; /* Adjust as needed */
+		width: 50px; /* Adjust as needed */
 	}
 	
 	.timeline-content {
