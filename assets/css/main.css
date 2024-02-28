@@ -30,47 +30,25 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 	
 	#LatestNews {
-		list-style: none;
-		padding: 200px;
-	}
-	
-	.timeline {
-		padding: 0;
-	}
-	
-	.timeline li {
 		display: flex;
-		flex-direction: column; /* Stack content vertically */
-		margin: 20px 0;
+		flex-direction: column;
+		align-items: flex-start; /* Align items to the start (left side) */
+	}
+	
+	.news-item {
+		display: flex;
+		align-items: center; /* Align items vertically */
+	}
+	
+	.news-date {
+		margin-right: 10px; /* Add some space between date and news */
 	}
 	
 	.headline {
-		text-align: center;
-		text-decoration: underline;
-		font-size: 60px; /* Adjust the font size as needed */
-	}
-	
-	.timeline-date {
 		font-weight: bold;
-		text-align: right; /* Align date to the right */
-		font-size: 14px; /* Adjust the font size */
-
+		margin-bottom: 10px; /* Add some space below the headline */
 	}
-		
-	.news {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-		
-	.news-date {
-		font-weight: bold;
-		font-size: 14px;
-	}
-	 
+		 
 /* Style for the Education section */
 #Education {
 	margin: 20px;
