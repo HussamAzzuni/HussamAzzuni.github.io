@@ -28,26 +28,6 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
-
-	.card {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		border: 1px solid #ccc;
-		border-radius: 8px;
-		padding: 20px;
-		margin-bottom: 20px;
-	}
-	
-	.card-content {
-		flex: 1; /* Take up remaining space */
-	}
-	
-	.card-date {
-		font-weight: bold;
-		font-size: 14px;
-	}
 	
 	#LatestNews {
 		list-style: none;
@@ -76,23 +56,25 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 14px; /* Adjust the font size */
 
 	}
-	
-	.timeline-content {
+		
+	.card {
 		display: flex;
-		flex-direction: row; /* Change to row direction */
-		justify-content: space-between; /* Distribute content evenly */
-		align-items: center; /* Center align items vertically */
-		font-size: 16px; /* Adjust the font size */
-
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px;
+		margin-bottom: 20px;
 	}
 	
-	.timeline-content h5,
-	.timeline-content h5 {
-		font-size: inherit; /* Inherit font size */
+	.card-content {
+		flex: 1; /* Take up remaining space */
 	}
 	
-	
-	  
+	.card-date {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	 
 /* Style for the Education section */
 #Education {
 	margin: 20px;
