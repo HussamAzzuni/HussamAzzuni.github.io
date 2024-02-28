@@ -39,6 +39,8 @@ footer, header, hgroup, menu, nav, section {
 	.news-item {
 		display: flex;
 		align-items: flex-start; /* Align items vertically */
+		justify-content: center; /* Center items along the main axis (horizontally) */
+
 	}
 	
 	.news-date {
@@ -46,7 +48,7 @@ footer, header, hgroup, menu, nav, section {
 		font-weight: bold; /* Make date bold */
 		align-self: flex-start; /* Align item to the start of the cross axis (vertically) */
 		justify-self: flex-start; /* Align item to the start of the main axis (horizontally) */
-	
+		justify-content: center; /* Center items along the main axis (horizontally) */
 	}
 	
 	.headline {
