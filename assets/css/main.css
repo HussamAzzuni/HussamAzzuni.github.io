@@ -53,6 +53,8 @@ footer, header, hgroup, menu, nav, section {
 	.timeline-date {
 		font-weight: bold;
 		text-align: right; /* Align date to the right */
+		font-size: 14px; /* Adjust the font size */
+
 	}
 	
 	.timeline-content {
@@ -60,6 +62,8 @@ footer, header, hgroup, menu, nav, section {
 		flex-direction: row; /* Change to row direction */
 		justify-content: space-between; /* Distribute content evenly */
 		align-items: center; /* Center align items vertically */
+		font-size: 16px; /* Adjust the font size */
+
 	}
 	
 	.timeline-content h5,
