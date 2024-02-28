@@ -32,8 +32,9 @@ footer, header, hgroup, menu, nav, section {
 	#LatestNews {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start; /* Align items to the start (left side) */
-	}
+		align-items: center; /* Center items along the cross axis (vertically) */
+		justify-content: center; /* Center items along the main axis (horizontally) */
+		}
 	
 	.news-item {
 		display: flex;
