@@ -53,6 +53,7 @@ footer, header, hgroup, menu, nav, section {
 		text-align: center; /* Center align headline */
 		text-decoration: underline; /* Underline the headline */
 		justify-content: center; /* Center along the vertical axis */
+		align-items: center;
 	}
 		 
 /* Style for the Education section */
