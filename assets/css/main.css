@@ -29,6 +29,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	.card {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		border: 1px solid #ccc;
+		border-radius: 8px;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.card-content {
+		flex: 1; /* Take up remaining space */
+	}
+	
+	.card-date {
+		font-weight: bold;
+		font-size: 14px;
+	}
+	
 	#LatestNews {
 		list-style: none;
 		padding: 0;
