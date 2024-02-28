@@ -50,7 +50,7 @@ footer, header, hgroup, menu, nav, section {
 		font-weight: bold;
 		font-size: 24px; /* Larger font size for the headline */
 		margin-bottom: 10px; /* Add some space below the headline */
-		text-align: right; /* Center align headline */
+		text-align: center; /* Center align headline */
 		text-decoration: underline; /* Underline the headline */
 		justify-content: center; /* Center along the vertical axis */
 	}
