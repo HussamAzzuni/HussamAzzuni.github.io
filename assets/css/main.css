@@ -49,6 +49,49 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 14px;
 	}
 	
+	#LatestNews {
+		list-style: none;
+		padding: 0;
+	}
+	
+	.timeline {
+		padding: 0;
+	}
+	
+	.timeline li {
+		display: flex;
+		flex-direction: column; /* Stack content vertically */
+		margin: 20px 0;
+	}
+	
+	.headline {
+		text-align: center;
+		text-decoration: underline;
+		font-size: 60px; /* Adjust the font size as needed */
+	}
+	
+	.timeline-date {
+		font-weight: bold;
+		text-align: right; /* Align date to the right */
+		font-size: 14px; /* Adjust the font size */
+
+	}
+	
+	.timeline-content {
+		display: flex;
+		flex-direction: row; /* Change to row direction */
+		justify-content: space-between; /* Distribute content evenly */
+		align-items: center; /* Center align items vertically */
+		font-size: 16px; /* Adjust the font size */
+
+	}
+	
+	.timeline-content h5,
+	.timeline-content h5 {
+		font-size: inherit; /* Inherit font size */
+	}
+	
+	
 	  
 /* Style for the Education section */
 #Education {
