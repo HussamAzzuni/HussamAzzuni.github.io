@@ -57,7 +57,7 @@ footer, header, hgroup, menu, nav, section {
 
 	}
 		
-	.card {
+	.news {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -65,14 +65,8 @@ footer, header, hgroup, menu, nav, section {
 		padding: 20px;
 		margin-bottom: 20px;
 	}
-	
-	.card-content {
-		flex: 1; /* Take up remaining space */
-		align-items: left;
-
-	}
-	
-	.card-date {
+		
+	.news-date {
 		font-weight: bold;
 		font-size: 14px;
 	}
