@@ -52,7 +52,6 @@ footer, header, hgroup, menu, nav, section {
 
 .timeline-date {
     font-weight: bold;
-    font-size: inherit; /* Inherit font size */
     text-align: right; /* Align date to the right */
 }
 
