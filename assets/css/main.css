@@ -44,6 +44,8 @@ footer, header, hgroup, menu, nav, section {
 	.news-date {
 		margin-right: 10px; /* Add some space between date and news */
 		font-weight: bold; /* Make date bold */
+		align-items: flex-start; /* Center items along the cross axis (vertically) */
+		justify-content: flex-start; /* Center items along the main axis (horizontally) */
 
 	}
 	
