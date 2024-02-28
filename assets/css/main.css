@@ -51,7 +51,8 @@ footer, header, hgroup, menu, nav, section {
 		font-size: 24px; /* Larger font size for the headline */
 		margin-bottom: 10px; /* Add some space below the headline */
 		text-align: right; /* Center align headline */
-		text-decoration: underline; /* Underline the headline */	
+		text-decoration: underline; /* Underline the headline */
+		justify-content: center; /* Center along the vertical axis */
 	}
 		 
 /* Style for the Education section */
