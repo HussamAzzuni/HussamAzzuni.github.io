@@ -48,13 +48,12 @@ footer, header, hgroup, menu, nav, section {
 	
 	.headline {
 		font-weight: bold;
-		font-size: 40px; /* Larger font size for the headline */
-		margin-bottom: 10px; /* Add some space below the headline */
-		text-align: center; /* Center align headline */
-		text-decoration: underline; /* Underline the headline */
-		justify-content: center; /* Center along the vertical axis */
-		align-items: center;
-	}
+		font-size: 40px;
+		margin-bottom: 10px;
+		text-align: center;
+		text-decoration: underline;
+		align-self: center; /* Align the headline vertically in the center */
+		}
 		 
 /* Style for the Education section */
 #Education {
