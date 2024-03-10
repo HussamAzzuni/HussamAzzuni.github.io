@@ -1250,11 +1250,12 @@ input, select, textarea {
 
 		.circle {
 			position: absolute;
-			width: 20px; /* Adjust the size of the circle */
-			height: 20px; /* Adjust the size of the circle */
+			width: 200px; /* Adjust the size of the circle */
+			height: 200px; /* Adjust the size of the circle */
 			border-radius: 50%; /* Make it a circle */
 			pointer-events: none; /* Allow mouse events to pass through the circle */
 			transition: transform 0.1s ease-out, opacity 0.3s ease-out; /* Smooth transition */
+			background-color: rgba(0, 153, 255, 0.3); /* Transparent red color (adjust as needed) */
 			z-index: 3; /* Ensure the circle appears above the background */
 		  }
 		  
