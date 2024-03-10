@@ -1259,15 +1259,13 @@ input, select, textarea {
 			transition: background 0.3s ease; /* Smooth transition for background change */
 		  }
 		  
-		  #circle {
+		#circle {
 			position: absolute;
 			top: 0;
 			left: 0;
 			z-index: 2; /* Ensure the circle appears above the background */
 			pointer-events: none; /* Allow mouse events to pass through the circle */
 		  }
-		  
-		  
 		  
 		  
 		body.is-article-visible #bg:after {
