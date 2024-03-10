@@ -1256,16 +1256,15 @@ input, select, textarea {
 			background: linear-gradient(to bottom, #ffcccc, #ff9999); /* Default gradient colors */
 			transition: background 0.3s ease; /* Smooth transition for background change */
 		  }
-		  
-		.circle {
+
+		#circle {
 			position: absolute;
-			width: 100px; /* Adjust the size of the circle */
-			height: 100px; /* Adjust the size of the circle */
+			width: 40px; /* Adjust the size of the circle */
+			height: 40px; /* Adjust the size of the circle */
 			border-radius: 50%; /* Make it a circle */
 			pointer-events: none; /* Allow mouse events to pass through the circle */
-			transition: transform 0.1s ease-out; /* Smooth transition for movement */
-			background: radial-gradient(circle at center, rgba(255, 0, 0, 0.3) 0%, rgba(255, 0, 0, 0) 70%); /* Radial gradient for the circle */
-			z-index: 3; /* Ensure the circle appears above the background */
+			background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white color */
+			z-index: 2; /* Ensure the circle appears above the background */
 		  }
 		  
 		  

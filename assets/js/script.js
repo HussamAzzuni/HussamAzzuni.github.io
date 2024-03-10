@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const bg = document.querySelector('#bg');
+  const circle = document.querySelector('#circle');
 
   function updateBackground(event) {
     const mouseX = event.clientX;
@@ -11,6 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Apply gradient background to bg element
     bg.style.background = `linear-gradient(to bottom, ${color1}, ${color2})`;
+
+    // Position the circle around the cursor
+    circle.style.left = mouseX - circle.offsetWidth / 2 + 'px';
+    circle.style.top = mouseY - circle.offsetHeight / 2 + 'px';
   }
 
   document.addEventListener('mousemove', updateBackground);
