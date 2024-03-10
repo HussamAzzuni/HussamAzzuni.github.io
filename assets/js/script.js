@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', function() {
   const circle = document.getElementById('circle');
 
@@ -6,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const mouseY = event.clientY;
 
     // Move the circle to the mouse cursor
-    circle.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    circle.style.left = mouseX + 'px';
+    circle.style.top = mouseY + 'px';
     circle.style.display = 'block'; // Show the circle
   });
 
