@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const background = document.querySelector('.background');
+    const background = document.querySelector('#bg'); // Change to match your background element
+    const body = document.querySelector('body'); // Get the body element
   
     function moveCircle(event) {
       const mouseX = event.clientX;
@@ -10,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
       circle.style.top = mouseY + 'px';
       const color = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
       circle.style.backgroundColor = color;
-      background.appendChild(circle);
+      body.appendChild(circle); // Append circle to the body or any container element you want
       setTimeout(() => {
         circle.remove();
       }, 2000); // Adjust the time the circles persist on the screen

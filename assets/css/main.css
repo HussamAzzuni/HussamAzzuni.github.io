@@ -1226,12 +1226,9 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
@@ -1251,6 +1248,16 @@ input, select, textarea {
 			z-index: 1;
 		}
 
+		.circle {
+			position: absolute;
+			width: 20px; /* Adjust the size of the circle */
+			height: 20px; /* Adjust the size of the circle */
+			border-radius: 50%; /* Make it a circle */
+			pointer-events: none; /* Allow mouse events to pass through the circle */
+			transition: transform 0.1s ease-out, opacity 0.3s ease-out; /* Smooth transition */
+			z-index: 3; /* Ensure the circle appears above the background */
+		  }
+		  
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
