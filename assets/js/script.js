@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
   function moveCircle(event) {
     const mouseX = event.clientX;
     const mouseY = event.clientY;
-    circle.style.left = mouseX - circle.offsetWidth / 2 + 'px'; // Center the circle horizontally
-    circle.style.top = mouseY - circle.offsetHeight / 2 + 'px'; // Center the circle vertically
+    const circleSize = 100; // Adjust the size of the circle
+    circle.style.left = mouseX - circleSize / 2 + 'px'; // Center the circle horizontally
+    circle.style.top = mouseY - circleSize / 2 + 'px'; // Center the circle vertically
   }
 
   document.addEventListener('mousemove', moveCircle);
