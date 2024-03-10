@@ -1255,7 +1255,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100vh; /* Use 100vh to cover the entire viewport height */
 			z-index: 1;
-			background: linear-gradient(to bottom, #ffcccc, #ff9999); /* Default gradient colors */
+			background: linear-gradient(to bottom, #ffcccc 40%, #ff9999 60%); /* Adjust color stops */
 			transition: background 0.3s ease; /* Smooth transition for background change */
 		  }
 		  
