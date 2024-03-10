@@ -1,16 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const body = document.querySelector('body'); // Get the body element
-  const circle = document.createElement('div');
-  circle.classList.add('circle');
-  body.appendChild(circle); // Append the circle to the body
+  const bg = document.querySelector('#bg');
 
-  function moveCircle(event) {
+  function updateBackground(event) {
     const mouseX = event.clientX;
     const mouseY = event.clientY;
-    const circleSize = 100; // Adjust the size of the circle
-    circle.style.left = mouseX - circleSize / 2 + 'px'; // Center the circle horizontally
-    circle.style.top = mouseY - circleSize / 2 + 'px'; // Center the circle vertically
+
+    // Calculate gradient colors based on mouse position
+    const color1 = `rgb(${mouseX / window.innerWidth * 255}, ${mouseY / window.innerHeight * 255}, 200)`;
+    const color2 = `rgb(255, ${255 - mouseX / window.innerWidth * 255}, ${255 - mouseY / window.innerHeight * 255})`;
+
+    // Apply gradient background to bg element
+    bg.style.background = `linear-gradient(to bottom, ${color1}, ${color2})`;
   }
 
-  document.addEventListener('mousemove', moveCircle);
+  document.addEventListener('mousemove', updateBackground);
 });
