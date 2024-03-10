@@ -1261,12 +1261,13 @@ input, select, textarea {
 		  
 		  #circle {
 			position: absolute;
-			top: 0;
-			left: 0;
-			z-index: 2; /* Ensure the circle appears above the background */
+			width: 20px; /* Adjust circle size as needed */
+			height: 20px; /* Adjust circle size as needed */
+			border-radius: 50%; /* Make it a circle */
+			background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white color */
 			pointer-events: none; /* Allow mouse events to pass through the circle */
-		  }
-		  
+			z-index: 2; /* Ensure the circle appears above the background */
+		  }  
 		  
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);

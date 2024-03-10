@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const mouseX = event.clientX;
     const mouseY = event.clientY;
 
-    // Update the position of the circle
-    circle.setAttribute('cx', mouseX);
-    circle.setAttribute('cy', mouseY);
+    // Move the circle with the mouse cursor
+    circle.style.left = mouseX - circle.offsetWidth / 2 + 'px';
+    circle.style.top = mouseY - circle.offsetHeight / 2 + 'px';
   });
 });
