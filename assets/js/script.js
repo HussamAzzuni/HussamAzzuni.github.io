@@ -1,7 +1,12 @@
-document.addEventListener('mousemove', function(event) {
+document.addEventListener('DOMContentLoaded', function() {
   const circle = document.getElementById('circle');
-  const mouseX = event.clientX;
-  const mouseY = event.clientY;
-  circle.setAttribute('cx', mouseX);
-  circle.setAttribute('cy', mouseY);
+
+  document.addEventListener('mousemove', function(event) {
+    const mouseX = event.clientX;
+    const mouseY = event.clientY;
+
+    // Update the position of the circle
+    circle.setAttribute('cx', mouseX);
+    circle.setAttribute('cy', mouseY);
+  });
 });
