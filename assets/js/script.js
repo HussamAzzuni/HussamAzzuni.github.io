@@ -14,8 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
     bg.style.background = `linear-gradient(to bottom, ${color1}, ${color2})`;
 
     // Position the circle around the cursor
-    circle.style.left = mouseX - circle.offsetWidth / 2 + 'px';
-    circle.style.top = mouseY - circle.offsetHeight / 2 + 'px';
+    const circleRadius = 50; // Adjust the radius of the circle
+    circle.style.left = mouseX - circleRadius + 'px';
+    circle.style.top = mouseY - circleRadius + 'px';
   }
 
   document.addEventListener('mousemove', updateBackground);
