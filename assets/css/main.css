@@ -1248,6 +1248,7 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			z-index: 1;
 		} */
+
 		#bg {
 			position: fixed;
 			top: 0;
@@ -1256,10 +1257,9 @@ input, select, textarea {
 			height: 100vh;
 			z-index: 1;
 			background: linear-gradient(to bottom, #8e8e8e, #d4d4d4); /* Default gradient colors */
-			transition: background 0.3s ease; /* Smooth transition for background change */
 		  }
 		  
-		#circle {
+		  #circle {
 			position: absolute;
 			top: 0;
 			left: 0;
