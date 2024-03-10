@@ -1249,14 +1249,16 @@ input, select, textarea {
 			z-index: 1;
 		} */
 		#bg {
-			position: relative;
+			position: fixed; /* Use fixed position to cover the entire viewport */
+			top: 0;
+			left: 0;
 			width: 100%;
-			height: 100vh;
+			height: 100vh; /* Use 100vh to cover the entire viewport height */
 			z-index: 1;
 			background: linear-gradient(to bottom, #ffcccc, #ff9999); /* Default gradient colors */
 			transition: background 0.3s ease; /* Smooth transition for background change */
 		  }
-
+		  
 		#circle {
 			position: absolute;
 			width: 40px; /* Adjust the size of the circle */
