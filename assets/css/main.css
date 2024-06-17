@@ -38,6 +38,8 @@ footer, header, hgroup, menu, nav, section {
 	.news-item {
 		display: flex;
 		align-items: center; /* Align items vertically */
+		font-size: 20px;
+
 	}
 	
 	.news-date {
