@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
 	
 	.news-item {
 		display: flex;
-		align-items: flex-start; /* Align items vertically */
+		align-items: center; /* Align items vertically */
 		font-size: 15px;
 
 	}
