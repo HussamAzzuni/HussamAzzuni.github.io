@@ -29,36 +29,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 	
-	#LatestNews {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start; /* Align items to the start (left side) */
-		font-size: 15px;
-	}
-	
-	.news-item {
-		display: flex;
-		align-items: center; /* Align items vertically */
-		font-size: 15px;
+#LatestNews {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Align items to the start (left side) */
+	font-size: 15px;
+}
 
-	}
-	
-	.news-date {
-		margin-right: 10px; /* Add some space between date and news */
-		font-weight: bold; /* Make date bold */
-		font-size: 20px;
+.news-item {
+	display: flex;
+	align-items: center; /* Align items vertically */
+	font-size: 15px;
 
+}
 
+.news-date {
+	margin-right: 10px; /* Add some space between date and news */
+	font-weight: bold; /* Make date bold */
+	font-size: 20px;
+
+}
+
+.headline {
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+	text-decoration: underline;
+	align-self: center; /* Align the headline vertically in the center */
 	}
-	
-	.headline {
-		font-weight: bold;
-		font-size: 40px;
-		margin-bottom: 10px;
-		text-align: center;
-		text-decoration: underline;
-		align-self: center; /* Align the headline vertically in the center */
-		}
 		 
 /* Style for the Education section */
 #Education {
